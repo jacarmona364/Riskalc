@@ -8,6 +8,11 @@ Soy el director del departamento de análisis de riesgos de una empresa de banca
 - La solución requiere una cierta cantidad de lógica de negocio, ya que un mal procesamiento de datos es la base de la que parte este problema.
 - Los [datos](https://github.com/jacarmona364/Riskalc/blob/Objetivo-0/Documentación%20Adicional/scoring.md) para resolver el problema han sido facilitados por la empresa en cuestión.
 
-
+## Planificación del proyecto
+- [User Stories](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/historias_usuario.md)
+- [User Journeys](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/journeys.md)
+- [Milestones](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/milestones.md)
+---
 - [Licencia](https://github.com/jacarmona364/Riskalc/blob/main/LICENSE)
 - [Documentación Adicional](https://github.com/jacarmona364/Riskalc/tree/Objetivo-0/Documentación%20Adicional)
+
