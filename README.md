@@ -10,9 +10,9 @@ Soy el director del departamento de análisis de riesgos de una empresa de banca
 
 ## Planificación del proyecto
 - [Documentación](https://github.com/jacarmona364/Riskalc/tree/Objetivo-1/docs)
-- [User Stories](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/historias_usuario.md)
-- [User Journeys](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/journeys.md)
-- [Milestones](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/milestones.md)
+  - [User Stories](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/historias_usuario.md)
+  - [User Journeys](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/journeys.md)
+  - [Milestones](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/milestones.md)
 ---
 - [Licencia](https://github.com/jacarmona364/Riskalc/blob/main/LICENSE)
 - [Documentación Adicional](https://github.com/jacarmona364/Riskalc/tree/main/Documentación%20Adicional)
