@@ -1,39 +1,24 @@
-## Milestones (Hitos)
+## Hitos del Proyecto
 
-### Hito 0: Definición de los criterios de cálculo de riesgo
-**Objetivo**: Establecer los criterios de cálculo de riesgo de acuerdo a las normativas del Banco de España y las necesidades internas del banco.  
-**Entregables**:
-- Documentación sobre los criterios y variables a utilizar en los cálculos de riesgo.
-- Especificaciones técnicas sobre cómo se implementarán estos criterios en el sistema.
-**Viabilidad**: Este hito asegura que todos los empleados utilicen los mismos criterios para evaluar riesgos, reduciendo discrepancias.  
-**Producto**: Aún no hay un producto final, pero sí los fundamentos para desarrollar la lógica de negocio.
+### Hito 0: Modelización del problema
+**Objetivo:** Investigar las tecnologías que se emplearán en el desarrollo del sistema de evaluación de riesgos financieros, así como determinar las fuentes de datos relevantes para la automatización de cálculos de riesgo.  
+**Entregables:** Informe sobre las tecnologías seleccionadas, requisitos necesarios para el uso y desarrollo de la plataforma, y fuentes de datos disponibles.  
+**Viabilidad:** Este hito es crucial para elegir las tecnologías adecuadas y obtener requisitos claros que guiarán el desarrollo del proyecto.  
+**Producto:** No hay un producto tangible para el usuario final en esta fase; el enfoque está en la planificación y definición de requisitos.
 
 ---
 
-### Hito 1: Implementación del cálculo automático de riesgo
-**Objetivo**: Crear una funcionalidad básica que permita calcular automáticamente el riesgo de una operación financiera.  
-**Entregables**:
-- Código que implementa la lógica de cálculo del riesgo.
-- Pruebas del sistema que validen los cálculos según diferentes escenarios.
-**Viabilidad**: La lógica de negocio es clave, y la herramienta debe funcionar de manera consistente con los datos reales.  
-**Producto**: Aunque no es un producto final, ya es una función central que los usuarios podrían empezar a usar para evaluar riesgos.
+### Hito 1: Cálculo automático del riesgo financiero
+**Objetivo:** Desarrollar un módulo que realice el cálculo automático del riesgo de las operaciones financieras, alineado con los criterios establecidos por el Banco de España.  
+**Entregables:** Código para la automatización del cálculo de riesgo, pruebas de validación y un informe de resultados que muestre los cálculos realizados.  
+**Viabilidad:** La creación de un cálculo automático que cumpla con las regulaciones es clave para la funcionalidad del sistema. En esta fase, aún no hay una interfaz de usuario, por lo que el enfoque está en la lógica de negocio y el cálculo en sí.  
+**Producto:** Aunque el producto es funcional en términos de cálculo, no hay una interfaz directa para que el usuario interactúe con él.
 
 ---
 
-### Hito 2: Notificaciones de discrepancias y revisión manual
-**Objetivo**: Implementar un sistema de notificaciones que informe de discrepancias en los criterios de riesgo y permita su resolución.  
-**Entregables**:
-- Sistema de notificaciones para alertar a los empleados sobre discrepancias.
-- Interfaz para revisar y resolver dichas discrepancias.
-**Viabilidad**: Esta funcionalidad añade control y flexibilidad a la herramienta, permitiendo a los gestores ajustar el riesgo según sea necesario.  
-**Producto**: Se mejora la experiencia del usuario, ya que la herramienta es más adaptable a las necesidades de la empresa.
+### Hito 2: Notificación de discrepancias en criterios de riesgo
+**Objetivo:** Implementar un sistema de notificación que informe a los gestores de operaciones financieras sobre discrepancias en los criterios de riesgo aplicados por diferentes empleados.  
+**Entregables:** Módulo de detección de discrepancias, lógica de notificación automatizada y pruebas de envío de notificaciones.  
+**Viabilidad:** La identificación de discrepancias y la notificación efectiva son cruciales para mejorar la eficiencia en la evaluación de riesgos. Este hito se centra en asegurar que los conflictos sean abordados rápidamente, aunque no se incluye aún una interfaz de usuario final.  
+**Producto:** Se desarrolla una funcionalidad importante, pero todavía no hay un producto que el usuario pueda consumir directamente; el enfoque está en la lógica y el sistema de notificación.
 
----
-
-### Hito 3: Ajuste automático de riesgo según región y demografía
-**Objetivo**: Desarrollar una funcionalidad que ajuste los cálculos de riesgo según factores regionales y demográficos del prestatario.  
-**Entregables**:
-- Implementación del ajuste automático de riesgo basado en datos demográficos.
-- Pruebas que validen el correcto ajuste del riesgo.
-**Viabilidad**: Este hito requiere un análisis detallado de datos y una lógica compleja para aplicar correctamente los ajustes.  
-**Producto**: Representa una mejora significativa del sistema, haciéndolo más preciso y adaptado a las normativas.
