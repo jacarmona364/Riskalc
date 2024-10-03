@@ -1,48 +1,46 @@
 ## User Journeys
 
 ### Journey 1: Ana, Analista de Riesgos Financieros
-**Contexto**: Ana es analista de riesgos financieros en una empresa de banca. A menudo, se enfrenta a la dificultad de realizar cálculos de riesgo de manera rápida y precisa, lo que puede retrasar decisiones críticas en la aceptación o denegación de operaciones. Para optimizar su trabajo, necesita un sistema que realice estos cálculos automáticamente.
+**Contexto**: Una analista de riesgos financieros en una empresa de banca, a menudo, se enfrenta a la dificultad de realizar cálculos de riesgo de manera rápida y precisa, lo que puede retrasar decisiones críticas en la aceptación o denegación de operaciones.
 
 **Recorrido del Usuario:**
-1. **Inicio de sesión:** Ana inicia sesión en el sistema.
-2. **Introducción de datos:** Carga la información necesaria de la operación financiera que desea evaluar.
-3. **Cálculo automático:** El sistema calcula automáticamente el riesgo siguiendo los criterios establecidos por el Banco de España.
-4. **Revisión de resultados:** Ana revisa el resultado del cálculo, que se presenta de forma clara y comprensible.
-5. **Toma de decisiones:** Con la información obtenida, Ana decide si acepta o deniega la operación.
+1. El usuario accede al sistema y selecciona la opción: "Evaluar operación"
+2. Carga la información necesaria de la operación financiera que desea evaluar.
+3. El sistema calcula automáticamente el riesgo siguiendo los criterios establecidos por el Banco de España, valorando los [parámetros](https://github.com/jacarmona364/Riskalc/blob/main/Documentación%20Adicional/scoring.md) que se introduzcan en cada caso.
+4. El usuario revisa el resultado del cálculo, que se presenta de forma clara y comprensible como un valor discreto.
+5. Con la información obtenida, el usuario decide si acepta o deniega la operación.
 
 ---
 
 ### Journey 2: Luis, Gestor de Operaciones Financieras
-**Contexto**: Luis es gestor de operaciones financieras y a menudo se encuentra con discrepancias en los criterios de riesgo aplicados por diferentes empleados, lo que puede llevar a decisiones inconsistentes. Necesita una solución que le informe de estas discrepancias para resolver conflictos rápidamente.
+**Contexto**: Un gestor de operaciones financieras a menudo se encuentra con discrepancias en los criterios de riesgo aplicados por diferentes empleados, lo que puede llevar a decisiones inconsistentes. Necesita una solución que le elimine estas discrepancias para resolver conflictos rápidamente.
 
 **Recorrido del Usuario:**
-1. **Inicio de sesión:** Luis inicia sesión en el sistema.
-2. **Asignación de criterios:** Introduce o revisa los criterios de riesgo aplicados por los empleados.
-3. **Detección de discrepancias:** El sistema identifica automáticamente las discrepancias en la asignación de riesgos.
-4. **Recepción de notificaciones:** Luis recibe notificaciones automáticas sobre las discrepancias detectadas, que incluyen un resumen y un enlace a la operación correspondiente.
-5. **Resolución de conflictos:** Luis aborda las discrepancias y toma las decisiones necesarias para resolver los conflictos.
+1. El usuario accede al sistema.
+2. Modifica las ponderaciones manualmente de cada parámetro.
+3. El sistema actualiza las operaciones con las que calcula el valor de riesgo final.
 
 ---
 
 ### Journey 3: Marta, Analista de Riesgos
-**Contexto**: Marta es analista de riesgos y necesita ajustar los cálculos de riesgo en función de factores demográficos como la región y la edad del prestatario. Hacer esto manualmente es tedioso y propenso a errores.
+**Contexto**: Una analista de riesgos necesita modificar los datos de las operaciones en función de factores demográficos como la región y la edad del prestatario. Hacer esto manualmente es tedioso y propenso a errores.
 
 **Recorrido del Usuario:**
-1. **Inicio de sesión:** Marta inicia sesión en el sistema.
-2. **Carga de datos:** Introduce la información demográfica del prestatario.
-3. **Cálculo automático ajustado:** El sistema ajusta automáticamente los cálculos de riesgo según los datos introducidos.
-4. **Revisión del informe:** Marta revisa el informe final que incluye los cálculos ajustados.
-5. **Toma de decisiones:** Marta utiliza el informe para tomar decisiones sobre la operación financiera.
+1. El usuario accede al sistema y selecciona la opción "Modificar operación"
+2. Introduce la información demográfica del prestatario.
+3. El sistema ajusta automáticamente los cálculos de riesgo según los datos introducidos pero con los datos de la operación modificados.
+4. El usuario revisa el informe final que incluye los cálculos ajustados.
 
 ---
 
 ### Journey 4: Jorge, Gestor de Riesgos
-**Contexto**: Jorge es gestor de riesgos y necesita priorizar las operaciones financieras según su nivel de riesgo. Filtrar manualmente estas operaciones puede ser ineficiente, especialmente con grandes volúmenes de datos.
+**Contexto**: Un gestor de riesgos necesita gestionar las operaciones financieras según su nivel de riesgo. Modificar manualmente las ponderaciones de los parámetros de estas operaciones puede ser ineficiente, especialmente con grandes volúmenes de datos.
 
 **Recorrido del Usuario:**
-1. **Inicio de sesión:** Jorge inicia sesión en el sistema.
-2. **Definición de umbrales:** Define los umbrales de riesgo (alto, medio, bajo) para las operaciones.
-3. **Filtrado automático:** El sistema filtra automáticamente las operaciones según los umbrales establecidos.
-4. **Revisión de resultados filtrados:** Jorge revisa la lista de operaciones que cumplen con el umbral definido.
-5. **Toma de decisiones:** Jorge prioriza las operaciones más riesgosas para su revisión y toma de decisiones rápidas.
+1. El usuario accede el sistema y selecciona la opción "Gestionar evaluación".
+2. Define los umbrales de riesgo (alto, medio, bajo) para las operaciones.
+3. Modifica los valores de las ponderaciones de los parámetros como estime pertinente.
+4. El sistema actualiza automáticamente las operaciones según los umbrales establecidos.
+5. El usuario revisa la lista de operaciones que cumplen con el umbral definido.
+6. El usuario prioriza las operaciones más riesgosas para su revisión y toma de decisiones rápidas.
 
