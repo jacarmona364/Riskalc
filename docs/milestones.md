@@ -1,6 +1,6 @@
 ## Hitos del Proyecto
 
-### Hito 0: Modelización del problema
+### Hito 0: Fundamentos del proyecto
 - **Descripción:** Investigar las tecnologías que se emplearán en el desarrollo del sistema de evaluación de riesgos financieros, así como determinar las fuentes de datos relevantes para la automatización de cálculos de riesgo.  
 - **Entregables:** Informe sobre las tecnologías seleccionadas, requisitos necesarios para el uso y desarrollo de la plataforma, y fuentes de datos disponibles, así como el código correspondiente con la estructura de la aplicación.  
 - **Viabilidad:** Este hito es crucial para elegir las tecnologías adecuadas y obtener requisitos claros que guiarán el desarrollo del proyecto. Se realizará un análisis de riesgo asociado a la implementación de cada tecnología.
