@@ -3,6 +3,10 @@
 ### Journey 1: Ana, Analista de Riesgos Financieros
 **Contexto**: Una analista de riesgos financieros en una empresa de banca, a menudo, se enfrenta a la dificultad de realizar cálculos de riesgo de manera rápida y precisa, lo que puede retrasar decisiones críticas en la aceptación o denegación de operaciones.
 
+**Frecuencia**: Diario, pues evaluar operaciones es una de las bases de la actividad productiva de la empresa.
+
+**Dispositivo**: Equipo de la oficina.
+
 **Recorrido del Usuario:**
 1. El usuario accede al sistema y selecciona la opción: "Evaluar operación"
 2. Carga la información necesaria de la operación financiera que desea evaluar.
@@ -15,6 +19,10 @@
 ### Journey 2: Luis, Gestor de Operaciones Financieras
 **Contexto**: Un gestor de operaciones financieras a menudo se encuentra con discrepancias en los criterios de riesgo aplicados por diferentes empleados, lo que puede llevar a decisiones inconsistentes. Necesita una solución que le elimine estas discrepancias para resolver conflictos rápidamente.
 
+**Frecuencia**: Semanal/mensualmente, puesto que los ratios de pago de cada [parámetro](https://github.com/jacarmona364/Riskalc/blob/main/Documentación%20Adicional/scoring.md) se actualizarán cada mes en mayor o menor medida.
+
+**Dispositivo**: Equipo de la oficina.
+
 **Recorrido del Usuario:**
 1. El usuario accede al sistema.
 2. Modifica las ponderaciones manualmente de cada parámetro.
@@ -24,6 +32,10 @@
 
 ### Journey 3: Marta, Analista de Riesgos
 **Contexto**: Una analista de riesgos necesita modificar los datos de las operaciones en función de factores demográficos como la región y la edad del prestatario. Hacer esto manualmente es tedioso y propenso a errores.
+
+**Frecuencia**: Diario/semanal, ya que los errores o modificaciones en las operaciones introducidas en el sistema tendrán una frecuencia considerable.
+
+**Dispositivo**: Equipo de la oficina.
 
 **Recorrido del Usuario:**
 1. El usuario accede al sistema y selecciona la opción "Modificar operación"
@@ -35,6 +47,10 @@
 
 ### Journey 4: Jorge, Gestor de Riesgos
 **Contexto**: Un gestor de riesgos necesita gestionar las operaciones financieras según su nivel de riesgo. Modificar manualmente las ponderaciones de los parámetros de estas operaciones puede ser ineficiente, especialmente con grandes volúmenes de datos.
+
+**Frecuencia**: Semanal/mensualmente, puesto que los ratios de pago de cada [parámetro](https://github.com/jacarmona364/Riskalc/blob/main/Documentación%20Adicional/scoring.md) se actualizarán cada mes en mayor o menor medida.
+
+**Dispositivo**: Equipo de la oficina.
 
 **Recorrido del Usuario:**
 1. El usuario accede el sistema y selecciona la opción "Gestionar evaluación".
