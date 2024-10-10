@@ -16,4 +16,4 @@ Soy el director del departamento de análisis de riesgos de una empresa de banca
 ---
 - [Licencia](https://github.com/jacarmona364/Riskalc/blob/main/LICENSE)
 - [Documentación Adicional](https://github.com/jacarmona364/Riskalc/tree/main/Documentación%20Adicional)
-
+- [Nociones básicas](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/Documentación%20Adicional/essential_knowledge.md)
