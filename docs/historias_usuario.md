@@ -1,7 +1,7 @@
 ## Historias de Usuario (User Stories)
 
 ### [HU1]: Analista de Riesgos Financieros
-**Soy Ana**, analista de riesgos financieros en una empresa de banca. Frecuentemente, al evaluar las operaciones financieras, me enfrento a la dificultad de realizar cálculos de riesgo de manera rápida y precisa. Esta ineficiencia puede retrasar las decisiones sobre la aceptación o denegación de operaciones, lo que puede afectar la rentabilidad de la empresa. Necesito realizar estos cálculos automáticamente, alineado con los criterios establecidos por el Banco de España, para optimizar el proceso de toma de decisiones.
+**Soy Ana**, analista de riesgos financieros en una empresa de banca. Frecuentemente, al evaluar las concesiones de préstamos, me enfrento a la dificultad de realizar cálculos de riesgo de manera rápida y precisa. Dentro de mi departamento, no todos los analistas siguen una misma serie de criterios para calcular el riesgo de que el préstamo entregado sea debidamente pagado. Esta variación puede retrasar las decisiones sobre la aceptación o denegación de las operaciones, lo que puede afectar la rentabilidad de la empresa. Necesito estandarizar la forma de estimar el nivel de riesgo para cada operación.
 
 ---
 
