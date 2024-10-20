@@ -2,30 +2,62 @@
 
 ### Hito 0: Fundamentos del proyecto
 - **Descripción:** Investigar las tecnologías que se emplearán en el desarrollo del sistema de evaluación de riesgos financieros, así como determinar las fuentes de datos relevantes para la automatización de cálculos de riesgo.  
-- **Entregables:** Informe sobre las tecnologías seleccionadas, requisitos necesarios para el uso y desarrollo de la plataforma, y fuentes de datos disponibles, así como el código correspondiente con la estructura de la aplicación.  
+- **Entregables:** Informe sobre las tecnologías seleccionadas, requisitos necesarios para el uso y desarrollo de la plataforma, y fuentes de [datos](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/Documentación%20Adicional/historial_prestamos.xlsx) disponibles, así como el código correspondiente con la estructura de la aplicación.  
 - **Viabilidad:** Este hito es crucial para elegir las tecnologías adecuadas y obtener requisitos claros que guiarán el desarrollo del proyecto. Se realizará un análisis de riesgo asociado a la implementación de cada tecnología.
 - **Producto:** Generar un prototipo simple o un esquema que represente la arquitectura del sistema, aunque sea en papel o como un diagrama digital, para visualizar la solución.
 - **Criterios de viabilidad:** 
   - Identificar y documentar las tecnologías que cumplen con los requisitos de seguridad y escalabilidad.
   - Se evaluará la integración de datos mediante pruebas de conectividad a las fuentes de información.
-- **HU asignadas**: [HU1],[HU2],[HU3],[HU4]
+- **HU asignadas**: [HU1],[HU2]
 
 ---
 
-### Hito 1: Cálculo automático del riesgo financiero
-- **Descripción:** Desarrollar un módulo que realice el cálculo automático del riesgo de las operaciones financieras, alineado con los criterios establecidos por el Banco de España.  
-- **Entregables:** Módulo encargado de la automatización del cálculo de riesgo 
-- **Viabilidad:** La creación de un cálculo automático que cumpla con las regulaciones es clave para la funcionalidad del sistema. En esta fase, aún no hay una interfaz de usuario, por lo que el enfoque está en la lógica de negocio y el cálculo en sí.  
-- **Producto:** Aplicación básica (Beta). Aunque el producto es funcional en términos de cálculo, no hay una interfaz directa para que el usuario interactúe con él.
+### Hito 1: Cálculo de la Fórmula en Base a Operaciones Pasadas
+- **Descripción**: 
+  Desarrollar y ajustar la fórmula de cálculo de riesgo utilizando datos históricos de operaciones pasadas. La fórmula deberá considerar [variables](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/Documentación%20Adicional/scoring.md) como solvencia, renta anual, deudas pendientes y características demográficas de los prestatarios.
+- **Entregable**: 
+  Módulo de estimación del peso de cada variable, teniendo en cuenta cuánto afecta cada parámetro al pago del préstamo.
+- **Viabilidad**: 
+  Se utilizarán datos históricos de la empresa para validar la precisión de la fórmula. Se realizará un análisis estadístico para asegurar que la fórmula ofrece resultados consistentes y coherentes.
+- **Producto**: 
+  Aplicación que genera la fórmula del riesgo ajustada y lista para ser implementada en el sistema automatizado.
 - **HU asignadas**: [HU1]
 
 ---
 
-### Hito 2: Modificación de los parámetros del cálculo de riesgos
-- **Descripción:** Implementar un módulo que permita a los gestores de operaciones financieras modificar las ponderaciones de los parámetros. Además deberá ser manejado mediante una interfaz funcional que permita hacer esto sin tener que acceder al código del sistema. 
-- **Entregables:** Módulo de gestión de lógica de riesgos. 
-- **Viabilidad:** Poder editar los valores de la función interna con la que trabaja el sistema es crucial, puesto que los ratios de pago de los parámetros van a ser modificados periódicamente. Este hito se centra en asegurar que no sea necesario modificar el código fuente de la aplicación, ofreciendo además una interfaz mucho más intuitiva de cara al usuario.  
-- **Producto:** Aplicación con las funcionalidades básicas y mucho más modificable de manera segura, facilitando un uso más intuitivo por medio de una cómoda interfaz de usuario.
-- **HU asignadas**: [HU2],[HU3],[HU4]
- 
+### Hito 2: Automatización del Cálculo del Riesgo
+- **Descripción**: 
+  Implementar la automatización de la fórmula de cálculo de riesgo en la aplicación, permitiendo que los analistas puedan obtener resultados precisos de manera rápida y uniforme, directamente desde el sistema.
+- **Entregable**: 
+  Versión funcional del módulo con la lógica de cálculo de riesgos integrada, tomará en cuenta las operaciones evaluadas con su resultado real en cada periodo para ajustar la fórmula utilizada. Documentación técnica que detalle la implementación y el uso de la fórmula automatizada.
+- **Viabilidad**: 
+  La automatización reducirá significativamente el tiempo de evaluación y mejorará la consistencia en las decisiones, cumpliendo con la normativa.
+- **Producto**: 
+  Aplicación con la capacidad de calcular automáticamente el riesgo de cada operación, utilizando los datos ingresados del prestatario y basada en los pesos de la fórmula extraída con anterioridad.
+- **HU asignadas**: [HU1], [HU2]
+
+---
+
+### Hito 3: Modificación de Operaciones Pasadas
+- **Descripción**: 
+  Desarrollar una funcionalidad que permita a los analistas modificar los datos de operaciones ya evaluadas y recalcular automáticamente el riesgo de acuerdo con la nueva información.
+- **Entregable**: 
+  Módulo que incluye la posibilidad de modificar operaciones previas y recalcular los resultados de riesgo. Documento de usuario que explica el proceso de modificación y recalculo.
+- **Viabilidad**: 
+  Esta funcionalidad permitirá ajustar evaluaciones de forma eficiente, reduciendo la carga de trabajo manual y asegurando la precisión de las reevaluaciones.
+- **Producto**: 
+  Aplicación que permite modificaciones y recalculaciones en tiempo real, adaptándose a cambios en los datos de los prestatarios.
+- **HU asignadas**: [HU3]
+---
+
+### Hito 4: Filtrado de Operaciones
+- **Descripción**: 
+  Implementar un sistema de filtrado automático que priorice las operaciones según su nivel de riesgo, permitiendo a los gestores enfocarse en las más urgentes y críticas.
+- **Entregable**: 
+  Módulo de filtrado integrado en la aplicación, con la capacidad de mostrar automáticamente las operaciones de mayor riesgo. Documento de usuario que detalla cómo usar los filtros y priorizar operaciones.
+- **Viabilidad**: 
+  El sistema de filtrado permitirá reducir el tiempo de respuesta ante operaciones críticas, mejorando la eficiencia en la gestión del riesgo.
+- **Producto**: 
+  Aplicación con un sistema de filtrado avanzado que prioriza las solicitudes de acuerdo con los niveles de riesgo definidos.
+- **HU asignadas**: [HU4]
 
