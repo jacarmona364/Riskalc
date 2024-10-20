@@ -46,7 +46,7 @@
 - **Viabilidad**: 
   Esta funcionalidad permitirá ajustar evaluaciones de forma eficiente, reduciendo la carga de trabajo manual y asegurando la precisión de las reevaluaciones.
 - **Producto**: 
-  Aplicación que permite modificaciones y recalculaciones en tiempo real, adaptándose a cambios en los datos de los prestatarios.
+  Aplicación que permite modificaciones y reevaluaciones en tiempo real, adaptándose a cambios en los datos de los prestatarios.
 - **HU asignadas**: [HU3]
 ---
 
