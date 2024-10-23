@@ -2,26 +2,21 @@
 
 ### Hito 0: Fundamentos del proyecto
 - **Descripción:** Investigar las tecnologías que se emplearán en el desarrollo del sistema de evaluación de riesgos financieros, así como determinar las fuentes de datos relevantes para la automatización de cálculos de riesgo.  
-- **Entregables:** Informe sobre las tecnologías seleccionadas, requisitos necesarios para el uso y desarrollo de la plataforma, y fuentes de [datos](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/Documentación%20Adicional/historial_prestamos.xlsx) disponibles, así como el código correspondiente con la estructura de la aplicación.  
-- **Viabilidad:** Este hito es crucial para elegir las tecnologías adecuadas y obtener requisitos claros que guiarán el desarrollo del proyecto. Se realizará un análisis de riesgo asociado a la implementación de cada tecnología.
-- **Producto:** Generar un prototipo simple o un esquema que represente la arquitectura del sistema, aunque sea en papel o como un diagrama digital, para visualizar la solución.
-- **Criterios de viabilidad:** 
-  - Identificar y documentar las tecnologías que cumplen con los requisitos de seguridad y escalabilidad.
-  - Se evaluará la integración de datos mediante pruebas de conectividad a las fuentes de información.
-- **HU asignadas**: [HU1],[HU2]
+- **Entregables:** Informe sobre las tecnologías seleccionadas, requisitos necesarios para el uso y desarrollo de la plataforma, y fuentes de [datos](https://github.com/jacarmona364/Riskalc/blob/main/docs/material_financiero/historial_prestamos.csv) disponibles, así como el código correspondiente con la estructura de la aplicación.  
+- **Viabilidad:** Este hito es crucial para elegir las tecnologías adecuadas y obtener requisitos claros que guiarán el desarrollo del proyecto. Se realizará un modelo asociado a la implementación de cada tecnología. Se considerará completado cuando dicho modelo ofrezca una imagen clara de la resolución del problema, lenguaje a utilizar y presente una lógica de negocio consistente.
+- **Producto:** Generar un prototipo simple que represente la arquitectura del sistema para visualizar la solución, así como los requisitos necesarios para el uso y desarrollo de la plataforma.
 
 ---
 
 ### Hito 1: Cálculo de la Fórmula en Base a Operaciones Pasadas
 - **Descripción**: 
-  Desarrollar y ajustar la fórmula de cálculo de riesgo utilizando datos históricos de operaciones pasadas. La fórmula deberá considerar [variables](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/Documentación%20Adicional/scoring.md) como solvencia, renta anual, deudas pendientes y características demográficas de los prestatarios.
+  Desarrollar y ajustar la fórmula de cálculo de riesgo utilizando datos históricos de operaciones pasadas. La fórmula deberá considerar [variables](https://github.com/jacarmona364/Riskalc/blob/main/docs/material_financiero/scoring.md) como solvencia, renta anual, deudas pendientes y características demográficas de los prestatarios.
 - **Entregable**: 
-  Módulo de estimación del peso de cada variable, teniendo en cuenta cuánto afecta cada parámetro al pago del préstamo.
+  Módulo de estimación del peso de cada variable, teniendo en cuenta cuánto afecta cada parámetro al pago o no del préstamo.
 - **Viabilidad**: 
-  Se utilizarán datos históricos de la empresa para validar la precisión de la fórmula. Se realizará un análisis estadístico para asegurar que la fórmula ofrece resultados consistentes y coherentes.
+  Se utilizarán datos históricos de la empresa para validar la precisión de la fórmula. Se realizará un análisis estadístico mediante test para asegurar que la fórmula ofrece resultados consistentes y coherentes.
 - **Producto**: 
-  Aplicación que genera la fórmula del riesgo ajustada y lista para ser implementada en el sistema automatizado.
-- **HU asignadas**: [HU1]
+  Código que genera la fórmula del riesgo ajustada y lista para ser implementada en el sistema automatizado.
 
 ---
 
@@ -33,8 +28,7 @@
 - **Viabilidad**: 
   La automatización reducirá significativamente el tiempo de evaluación y mejorará la consistencia en las decisiones, cumpliendo con la normativa.
 - **Producto**: 
-  Aplicación con la capacidad de calcular automáticamente el riesgo de cada operación, utilizando los datos ingresados del prestatario y basada en los pesos de la fórmula extraída con anterioridad.
-- **HU asignadas**: [HU1], [HU2]
+  Código con la capacidad de calcular automáticamente el riesgo de cada operación, utilizando los datos ingresados del prestatario y basada en los pesos de la fórmula extraída con anterioridad.
 
 ---
 
@@ -46,8 +40,8 @@
 - **Viabilidad**: 
   Esta funcionalidad permitirá ajustar evaluaciones de forma eficiente, reduciendo la carga de trabajo manual y asegurando la precisión de las reevaluaciones.
 - **Producto**: 
-  Aplicación que permite modificaciones y reevaluaciones en tiempo real, adaptándose a cambios en los datos de los prestatarios.
-- **HU asignadas**: [HU3]
+  Código que permite modificaciones y reevaluaciones en tiempo real, adaptándose a cambios en los datos de los prestatarios.
+
 ---
 
 ### Hito 4: Filtrado de Operaciones
@@ -58,6 +52,5 @@
 - **Viabilidad**: 
   El sistema de filtrado permitirá reducir el tiempo de respuesta ante operaciones críticas, mejorando la eficiencia en la gestión del riesgo.
 - **Producto**: 
-  Aplicación con un sistema de filtrado avanzado que prioriza las solicitudes de acuerdo con los niveles de riesgo definidos.
-- **HU asignadas**: [HU4]
+  Código con un sistema de filtrado avanzado que prioriza las solicitudes de acuerdo con los niveles de riesgo definidos.
 
