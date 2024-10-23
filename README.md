@@ -9,11 +9,10 @@ Soy el director del departamento de análisis de riesgos de una empresa de banca
 - Los [datos](https://github.com/jacarmona364/Riskalc/blob/main/Documentación%20Adicional/scoring.md) para resolver el problema han sido facilitados por la empresa en cuestión.
 
 ## Planificación del proyecto
-- [Documentación](https://github.com/jacarmona364/Riskalc/tree/Objetivo-1/docs)
-  - [User Stories](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/historias_usuario.md)
-  - [User Journeys](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/journeys.md)
-  - [Milestones](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/milestones.md)
+- [User Stories](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/historias_usuario.md)
+- [User Journeys](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/journeys.md)
+- [Milestones](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/milestones.md)
 ---
 - [Licencia](https://github.com/jacarmona364/Riskalc/blob/main/LICENSE)
-- [Documentación Adicional](https://github.com/jacarmona364/Riskalc/tree/main/Documentación%20Adicional)
-- [Nociones básicas](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/Documentación%20Adicional/essential_knowledge.md)
+- [Documentación](https://github.com/jacarmona364/Riskalc/tree/main/docs)
+- [Nociones básicas](https://github.com/jacarmona364/Riskalc/blob/main/docs/material_financiero/essential_knowledge.md)
