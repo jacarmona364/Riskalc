@@ -9,10 +9,13 @@ Soy el director del departamento de análisis de riesgos de una empresa de banca
 - Los [datos](https://github.com/jacarmona364/Riskalc/blob/main/Documentación%20Adicional/scoring.md) para resolver el problema han sido facilitados por la empresa en cuestión.
 
 ## Planificación del proyecto
-- [User Stories](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/historias_usuario.md)
-- [User Journeys](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/journeys.md)
-- [Milestones](https://github.com/jacarmona364/Riskalc/blob/Objetivo-1/docs/milestones.md)
+- [User Stories](./docs/historias_usuario.md)
+- [Milestones](./docs/milestones.md)
+---
+## Lenguaje de Programación: Go
+- [Gestor de tareas](./docs/gestor_tareas.md)
+- [Gestor de dependencias](./docs/gestor_dependencias.md)
 ---
 - [Licencia](https://github.com/jacarmona364/Riskalc/blob/main/LICENSE)
-- [Documentación](https://github.com/jacarmona364/Riskalc/tree/main/docs)
-- [Nociones básicas](https://github.com/jacarmona364/Riskalc/blob/main/docs/material_financiero/essential_knowledge.md)
+- [Documentación](./docs)
+- [Nociones básicas](./docs/material_financiero)
